@@ -1,0 +1,74 @@
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: #ea580c;
+  font-size: 50px;
+  font-family: 'Roboto';
+}
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.input {
+  height: 35px;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit-button {
+  height: 35px;
+  width: 100px;
+  background-color: #ea580c;
+  color: #ffffff;
+  outline: none;
+  border-radius: 8px;
+  border-width: 0px;
+  cursor: pointer;
+}
+.error-message {
+  margin: 0px;
+  align-self: flex-start;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #ff0b37;
+}
+.submit-another-button {
+  background-color: #ea580c;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 180px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
